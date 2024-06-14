@@ -1,0 +1,100 @@
+这些功能会为你带来更好的游戏体验
+默认仅开启部分功能，详情请查看模组设置。
+---------------------------
+模组物品获得方式：
+旗帜盒: 铁锭(铅锭)x12
+药水袋: 丝绸x8
+自动钓鱼机: 铁锭(铅锭)x4 铜锭(锡锭)x2
+储存管理器: 蓝玉x5 落星x8 金锭(铂金锭)x12
+科技魔杖: 史莱姆王掉落
+空间魔杖: 史莱姆王掉落
+液体魔杖: 金锭(铂金锭)x6 暗影鳞片(组织样本)x8 木材x24
+建筑魔杖: 木材x24 落星x2 金锭(铂金锭)x12
+法爆魔杖: 木材x18 丛林孢子x6 红玉x1
+星爆魔杖: 法爆法杖x1 落星x8 光明之魂x6 暗影之魂x6
+虚空魔杖: 铁/铅锭x12 骨头x20 木材x18 钻石x1
+构造魔杖: 秘银锭(山铜锭)x18 琥珀x8 木材x80 石头x80
+(你可以使用 Recipe Browser(合成表) 模组的物品图鉴功能以在游戏内查阅来源!)
+---------------------------
+更新日志: https://github.com/487666123/ImproveGame/blob/1.4.4/ChangeLog.md
+开源链接 (Github): https://github.com/487666123/ImproveGame
+开源链接 (Gitee): https://gitee.com/MyGoold/improve-game
+---------------------------
+功能概要：
+详细列表请到模组配置或更新日志中查看
+  1、 物品最大堆叠等辅助Mod普遍功能(对标老牌辅助Luiafk)
+  2、 集存储、合成、提供无尽增益等功能为一体的储存管理器
+  3、 城镇NPC入住机制修改: 夜晚入住、图鉴解锁后无视条件入住
+  4、 空间魔杖、建筑魔杖、法爆魔杖和钓鱼机等大大优化游戏体验的模组物品
+  5、 渔夫任务无冷却、控制墓碑是否掉落等辅助模组功能的整合
+  6、 随身增益、随身制作站等节省时间的功能
+  7、 与同队好友共享无尽增益、制作站等专为联机设置的功能
+  8、 含100格的超大背包，再也不用担心旗帜和药水放在哪了
+  9、 药水袋与旗帜盒，更方便地将你的药水旗帜整合在一个物品，节省空间
+  10、几乎所有功能都是可以调节的，自行选择适合你的功能
+---------------------------
+[c/990000:画师：枫林半叶, 逆风而行的信鸽]
+[c/9900ff:翻译：Lastprismer, Lacewing]
+[c/0099ff:代码：局长, Cyril, 夜谷紫幽]
+[c/00ff99:贡献者: 炜尔, han.liu, 合作一号]
+---------------------------
+版权声明:
+本模组的“显示物品、NPC所属模组”功能部分代码来源于模组“WMITF”，本模组与模组“WMITF”皆在MIT许可协议下开源，意味着“被授权人有权利使用、复制、修改、合并、出版发行、散布、再授权及贩售软件及软件的副本。”因此本模组不存在侵权问题
+ChevyRay的协程类亦是在MIT许可协议下开源，不再赘述
+附:
+本模组开源链接: https://gitee.com/MyGoold/improve-game
+WMITF开源链接: https://github.com/gardenappl/WMITF
+ChevyRay的协程类: https://github.com/ChevyRay/Coroutines
+ProjectStarlight.Interchange: https://github.com/ProjectStarlight/ProjectStarlight.Interchange
+
+These features will bring you better gameplay experience
+Only some functions are enabled by default, please check mod configurations for details
+---------------------------
+How to obtain mod items: 
+Potion Bag: Any Iron Bar * 12
+Potion Bag: Silk * 8
+Fishing Machine: Any Iron Bar * 4 + Any Copper Bar * 2
+Storage Manager: Sapphire * 5 + Fallen Star * 8 + Any Gold Bar * 12
+Wand of Technology: Dropped by the King Slime
+Wand of Space: Dropped by the King Slime
+Wand of Liquid: Any Gold Bar * 6 + Shadow Scale/Tissue Sample * 8 + Wood * 24
+Wand of Architecture: Wood * 24 + Fallen Star * 2 + Any Gold Bar * 12
+Wand of Bursts: Wood * 18 + Jungle Spores * 6 + Ruby * 1
+Wand of Star Bursts: Wand of Bursts * 1 + Fallen Star * 8 + Soul of Light * 6 + Soul of Night * 6
+Wand of Void: Iron Bar/Lead Bar * 12 + Bone * 20 + Wood * 18 + Diamond * 1
+Wand of Construction: Mythril Bar/Orichalcum Bar * 18 + Amber * 8 + Wood * 80 + Stone * 80
+(You may use the Bestiary of the Recipe Browser to check their sources!)
+---------------------------
+Change log: https://github.com/487666123/ImproveGame/blob/1.4.4/ChangeLog.md
+Source code (Github): https://github.com/487666123/ImproveGame
+Source code (Gitee): https://gitee.com/MyGoold/improve-game
+---------------------------
+Feature highlights: 
+For a detailed list, check mod configurations or changelog above
+  1. General features like max stack
+  2. A Storage Manager that integrates storage, crafting, infinite buffs, and more
+  3. Town NPC spawn mechanic improvements: can respawn during nighttime, ignore respwaning limitations if bestiary is unlocked
+  4. Mod items such as Wand of Space, Wand of Architecture, Wand of Bursts and Fishing Machine which greatly improve gameplay experience
+  5. Integration of qol features like instantly refreash Angler's quests and disable tomb stone spawning
+  6. Time-saving features like Infinite Buffs and Portable Crafting Stations
+  7. Features specially made for multiplayer, for example sharing your infinite buffs, portable crafting stations and even more with your teammates
+  8. A Huge Inventory providing 100 item slots, no warries of storing your potions and banners
+  9. Potion Bag and Banner Box, integrate all your potions or banners as a single item (and you are free to take them out)
+  10. Most features are configurable, use on your own preference
+---------------------------
+[c/990000:Spriter: 枫林半叶, 逆风而行的信鸽]
+[c/9900ff:Translators: Lastprismer, Lacewing]
+[c/0099ff:Coder: 局长, Cyril, 夜谷紫幽]
+[c/00ff99:Contributor: WeiAL, han.liu, hezuo1hao]
+---------------------------
+Copyright Statement:
+A part of the source code of the 'showing which mod is an item from' function is from mod 'WMITF', this mod and WMITF are open-source using the MIT Licence, which means 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.'
+Hence there is no copyright voilation in this mod.
+ChevyRay's coroutine class is under MIT License as well, same as above.
+p.s
+Source code of:
+This mod: https://gitee.com/MyGoold/improve-game
+WMITF: https://github.com/gardenappl/WMITF
+ChevyRay's coroutine class: https://github.com/ChevyRay/Coroutines
+ProjectStarlight.Interchange: https://github.com/ProjectStarlight/ProjectStarlight.Interchange

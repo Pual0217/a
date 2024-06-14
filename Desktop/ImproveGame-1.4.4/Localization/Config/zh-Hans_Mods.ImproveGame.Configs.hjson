@@ -1,0 +1,1054 @@
+ImproveConfigs: {
+	DisplayName: 模组配置
+
+	ILoveBalance: {
+		Label: 平衡我爱死你啦
+		Tooltip:
+			'''
+			如果你想要一个在原版的基础上更进一步的体验，这款预设会是首选
+			在此预设中，关闭了无限增益，以死亡保存增益取而代之
+			大多数设置都调节到了相对平衡的水平
+			让你在享受难度与原版相当的模组同时，拥有一个不错的体验
+			（模组物品是否开启请自觉斟酌，因为有些模组物品不加以限制可能缺乏平衡）
+			（在选择预设后，你仍然可以手动调节你想要的选项）
+			'''
+	}
+
+	FukMeCalamity: {
+		Label: 泰拉无双启动
+		Tooltip:
+			'''
+			这款预设包括了大多数方便的功能，大幅度降低了游戏流程的重复与枯燥程度
+			如果你在玩灾厄模组复仇模式或Fargo魂石模组永恒模式，这会是很好的选择
+			大多数设置以便利为第一标准，使游戏流程更集中于推进进度与击杀Boss
+			（在选择预设后，你仍然可以手动调节你想要的选项）
+			'''
+	}
+
+	SuperVault: {
+		Label: "[centeritem:3813] 大背包"
+		Tooltip:
+			'''
+			独立的背包面板，容量 100 格，允许参与合成
+			拥有 "自动拾取" 以及 "智能拾取" 功能
+			请设置快捷键：设置 → 控件 → 下滑找到 “更好的体验：大背包”
+			'''
+	}
+
+	SuperVoidVault: {
+		Label: "[centeritem:4131] 独立收纳 自动拾取"
+		Tooltip:
+			'''
+			使玩家的独立收纳空间拥有类似虚空袋的自动拾取效果
+			优先级：猪猪钱罐 → 保险箱 → 护卫熔炉 → 虚空保险库
+			'''
+	}
+
+	SmartVoidVault: {
+		Label: "[centeritem:4076] 独立收纳 智能拾取"
+		Tooltip: 如果拾取的物品已存在于虚空保险库，则会直接被吸入
+	}
+
+	ItemMaxStack: {
+		Label: "[centeritem:9] 物品最大堆叠"
+		Tooltip:
+			'''
+			设置一组物品的最大可堆叠量
+			钱币的最大可堆叠量不可更改
+			'''
+	}
+
+	GrabDistance: {
+		Label: "[centeritem:5010] 物品拾取范围提升 (单位：格子)"
+		Tooltip: 在原有的基础上增加物品的吸附范围，并且会提升吸附速度。
+	}
+
+	NoConsume_SummonItem: {
+		Label: "[centeritem:560] 召唤物不消耗"
+		Tooltip: 包括BOSS召唤物和事件召唤物，仅支持原版。
+	}
+
+	ModifyPlayerPlaceSpeed: {
+		Label: "[centeritem:2214] 提高物块放置速度"
+		// Tooltip: ""
+	}
+
+	ModifyPlayerTileRange: {
+		Label: "[centeritem:2215] 提高物块放置距离"
+		// Tooltip: ""
+	}
+
+	TileSpeed_Blacklist: {
+		Label: "[centeritem:1448] 物块放置速度和距离提升黑名单"
+		Tooltip:
+			'''
+			物品名字中包含以下文本的物品的放置速度和距离不会提升
+			中英文均可被检测，英文不区分大小写
+			'''
+	}
+
+	PortableCraftingStation: {
+		Label: "[centeritem:WorkBench] 便携制作站"
+		Tooltip:
+			'''
+			物品栏以及便携存储中存有的制作站将直接生效
+			而不需要将其放下并站在其旁边，再来制作相应的物品
+			（如：只要你身上有熔炉，就可以随时把矿做成锭）
+			水桶可充当水源、熔岩桶与蜂蜜桶亦然
+			'''
+	}
+
+	NoPlace_BUFFTile: {
+		Label: "[centeritem:3198] 随身增益站"
+		Tooltip:
+			'''
+			玩家背包中或其他位置的增益站和旗帜会直接给予玩家增益（仅支持原版）
+			（其他位置：存钱罐，保险箱，护卫熔炉，虚空仓库）
+			'''
+	}
+
+	NoPlace_BUFFTile_Banner: {
+		Label: "[centeritem:2901] 随身增益站：旗帜"
+		Tooltip: 针对怪物旗帜，同于随身增益站
+	}
+
+	NoConsume_Potion: {
+		Label: "[centeritem:227] 药剂 无限续杯"
+		Tooltip:
+			'''
+			有一定堆叠数的药水将不再消耗(需求数量见下一条配置选项)
+			玩家背包中或其他位置的增增益药水会直接给予玩家增益
+			（其他位置：存钱罐，保险箱，护卫熔炉，虚空仓库）
+			'''
+	}
+
+	NoConsume_PotionRequirement: {
+		Label: "[centeritem:TeleportationPotion] 药剂 无限续杯 需求量"
+		Tooltip:
+			'''
+			只有堆叠数大于或等于此值的药剂才可无限获得增益
+			调节范围为 10~999
+			'''
+	}
+
+	NoConsume_Ammo: {
+		Label: "[centeritem:3104] 无限弹药"
+		Tooltip: 所有堆叠数  ≥ 3996 的弹药将不再消耗。
+	}
+
+	NoConsume_Projectile: {
+		Label: "[centeritem:42] 无限投掷物"
+		Tooltip: 所有堆叠数  ≥ 3996 的投掷物将不再消耗。
+	}
+
+	ImprovePrefix: {
+		Label: "[centeritem:1551] 可追溯重铸"
+		Tooltip: 允许你直接选择已获得过的前缀
+		Unknown: 未知前缀
+	}
+
+	ResurrectionTimeShortened: {
+		Label: "[centeritem:3232] 重生加速 非BOSS战"
+		Tooltip: 例如：25，则缩短 25% 复活时间！
+	}
+
+	BOSSBattleResurrectionTimeShortened: {
+		Label: "[centeritem:3232] 重生加速 BOSS战"
+		// Tooltip: ""
+	}
+
+	MiddleEnableBank: {
+		Label: "[centeritem:87] 中键打开便携收纳"
+		Tooltip:
+			'''
+			当你用中键点击物品栏的某个便携收纳物品时，会打开相应储存
+			同时也会关闭对便携收纳的距离限制
+			'''
+	}
+
+	BanTombstone: {
+		Label: "[centeritem:3230] 禁止生成墓碑"
+		// Tooltip: ""
+	}
+
+	FasterExtractinator: {
+		Label: "[centeritem:ChlorophyteExtractinator] 加速提炼机"
+		Tooltip: 极大地加快使用提炼机的速度
+	}
+
+	TownNPCGetTFIntoHouse: {
+		Label: "[centeritem:MusicBoxTownDay] 更好的城镇NPC入住机制"
+		Tooltip:
+			'''
+			哥布林、酒保、法师、机械师、税收官在满足生成条件后，
+			若有空房子会直接入住，不需要寻找，一旦入住即视为已被找到状态
+			理发师在击杀任意原版肉前Boss后会入住
+			城镇NPC可在夜晚入住
+			'''
+	}
+
+	NPCLiveInEvil: {
+		Label: "[centeritem:MusicBoxTownNight] 城镇NPC可住在邪恶环境"
+		Tooltip: 城镇NPC可以住在腐化与血腥环境内
+	}
+
+	TownNPCSpawnSpeed: {
+		Label: "[centeritem:4910] 城镇NPC刷新速度乘数"
+		Tooltip: 设为 1 将禁用此项修改
+	}
+
+	NoCD_FishermanQuest: {
+		Label: "[centeritem:4608] 渔夫任务立即刷新"
+		Tooltip:
+			'''
+			0 - 关闭
+			1 - 刷新任务但不重置任务鱼
+			2 - 刷新任务并重置任务鱼
+			'''
+	}
+
+	NPCCoinDropRate: {
+		Label: "[centeritem:73] 敌人钱币掉落倍率"
+		// Tooltip: ""
+	}
+
+	SlimeExDrop: {
+		Label: "[centeritem:11] 史莱姆必定内含物品"
+		Tooltip:
+			'''
+			使史莱姆体内必定包含随机物品
+			如果关闭该选项，则会遵循原版概率
+			'''
+	}
+
+	LavalessLavaSlime: {
+		Label: "[centeritem:LavaSlimeBanner] 熔岩史莱姆不生成熔岩"
+		Tooltip: 专家或大师模式下的熔岩史莱姆被击杀时不再会生成熔岩
+	}
+
+	TravellingMerchantStay: {
+		Label: "[centeritem:2222] 旅商永远不离开"
+		Tooltip:
+			'''
+			“旅商已死去!”
+			开启后，除非死亡或退出游戏，否则旅商不会离开
+			'''
+	}
+
+	TravellingMerchantRefresh: {
+		Label: "[centeritem:PeddlersSatchel] 旅商商店可刷新"
+		Tooltip: 在旅商的对话面板添加一个按钮，可手动刷新其商店商品
+	}
+
+	QuickNurse: {
+		Label: "[centeritem:AdhesiveBandage] 快捷护士"
+		Tooltip:
+			'''
+			右键点开护士对话则立即回血
+			消耗的钱币数量会从玩家头上弹出
+			'''
+	}
+
+	BestiaryQuickUnlock: {
+		Label: "[centeritem:DontHurtCrittersBook] 一次击杀即可完全解锁图鉴"
+		Tooltip: 只要该生物的图鉴被解锁，无论击杀数，都会显示它的全部信息（如掉落、简介等）
+	}
+
+	BannerRequirement: {
+		Label: "[centeritem:2990] 获得旗帜所需杀敌数倍率"
+		Tooltip:
+			'''
+			调整获得敌怪旗帜所需的杀敌数，值越小所需杀敌数越少
+			作为参考，当倍率设置为0.1时(即10%)，击杀5只蓝史莱姆即可获得旗帜
+			当倍率设置为10时(即1000%)，击杀500只蓝史莱姆才可获得旗帜
+			'''
+	}
+
+	AlchemyGrassGrowsFaster: {
+		Label: "[centeritem:313] 草药迅速生长"
+		Tooltip: 使所有草药生长的更快
+	}
+
+	AlchemyGrassAlwaysBlooms: {
+		Label: "[centeritem:316] 草药允许在任何情况下开花"
+		Tooltip: 使所有草药可以在任何时候开花，收获种子。
+	}
+
+	StaffOfRegenerationAutomaticPlanting: {
+		Label: "[centeritem:213] 再生法杖/再生之斧自动种植"
+		Tooltip: 使用再生法杖或再生之斧收获时，会自动种植草药
+	}
+
+	NoBiomeSpread: {
+		Label: "[centeritem:Sunflower] 禁止邪恶生物群落蔓延"
+		// Tooltip: ""
+	}
+
+	RespawnWithFullHP: {
+		Label: "[centeritem:LifeCrystal] 满血复活"
+		// Tooltip: ""
+	}
+
+	DontDeleteBuff: {
+		Label: "[centeritem:FlaskofNanites] 死亡保存增益"
+		Tooltip: 使增益在死后依然会维持激活状态
+	}
+
+	JourneyResearch: {
+		Label: "[centeritem:GoldBunny] 旅行模式自动研究"
+		Tooltip:
+			'''
+			在旅行模式下，达到数量需求的被标记为收藏的物品将被自动研究
+			自动研究不会消耗物品
+			'''
+	}
+
+	BanDamageVar: {
+		Label: "[centeritem:6] 禁用伤害波动机制"
+		// Tooltip: ""
+	}
+
+	ExtraPlayerBuffSlots: {
+		Label: "[centeritem:3000] 额外BUFF栏"
+		// Tooltip: ""
+	}
+
+	TreeGrowFaster: {
+		Label: "[centeritem:1182] 树木迅速生长 & 无视地层条件"
+		Tooltip:
+			'''
+			使树木生长速度变为原来的五倍
+			宝石树可在地表生长，普通树可在地下生长
+			不会影响丛林树和发光蘑菇树的自然生成
+			'''
+	}
+
+	ShakeTreeFruit: {
+		Label: "[centeritem:4009] 摇树总是掉落水果"
+		Tooltip:
+			'''
+			大大提升掉落水果的概率 (其他物品掉落概率不会因此受到影响)
+			如果还是什么都不掉，请确保该树有树冠，而且还未被摇过
+			'''
+	}
+
+	GemTreeAlwaysDropGem: {
+		Label: "[centeritem:3649] 宝石树总是掉落宝石"
+		Tooltip: 使宝石树每个部分都会掉落宝石或宝石果
+	}
+
+	ShareCraftingStation: {
+		Label: "[centeritem:WorkBench] 共享便携制作站"
+		Tooltip:
+			'''
+			与你同队的玩家将共享便携制作站
+			即: 若你队伍中有一名玩家携带了工作台，则你不需要携带即可合成椅子
+			需要同时打开功能“便携制作站”以生效
+			（玩家过多时(超过100个)计算量大，可能会造成卡顿）
+			'''
+	}
+
+	ShareInfBuffs: {
+		Label: "[centeritem:227] 共享无尽增益"
+		Tooltip:
+			'''
+			与你同队的玩家将共享无尽增益，包括旗帜增益
+			即: 若你队伍中有一名玩家携带了蛋糕，则你不需要携带即可获得糖果冲刺增益
+			需要打开至少一个无尽增益相关选项以生效
+			（玩家过多时(超过100个)计算量大，可能会造成卡顿）
+			'''
+	}
+
+	ShareRange: {
+		Label: "[centeritem:WorldGlobe] 共享范围(格)"
+		Tooltip:
+			'''
+			在一定共享范围内的同队玩家才会享受效果共享
+			默认为 -1，即无限制，只要同队均会享受效果
+			'''
+	}
+
+	TeamAutoJoin: {
+		Label: "[centeritem:TeamBlockRed] 自动加红队"
+		Tooltip: 开启后，在多人模式下新加入的玩家会自动加入红队
+	}
+
+	OnlyHost: {
+		Label: "[centeritem:2203] 仅主机可调节配置 (端口映射无效)"
+		Tooltip:
+			'''
+			单人模式下无用
+			开启后，仅主机玩家(即IP为127.0.0.1)可调节模组配置
+			该选项仅主机玩家可控制开关
+			如果你使用端口映射手段开服，请使用下面那个选项
+			'''
+		Unaccepted: 无法更改: 你不是服务器主机玩家！
+	}
+
+	OnlyHostByPassword: {
+		Label: "[centeritem:2203] 仅密码验证通过的玩家可调节设置"
+		Tooltip:
+			'''
+			单人模式下无用，需要重新加载模组
+			开启后，仅密码验证通过的玩家可以调节模组设置
+			在服务器启动时，会在服务器控制台发送一串随机生成的八位数字密钥
+			玩家可以通过输入 /qotpassword <密码> 验证身份
+			服务器控制台可以输入 /qotpassword 查询密码
+			若密码正确，将获得调节模组设置的权限
+			对于端口映射手段开服有用，因为此时IP无法验证身份(均为127.0.0.1)
+			'''
+		Unaccepted: 你没有通过密码验证！
+		Registered: 你已获得修改配置权限，无需认证
+		Correct: 密码正确，你已获得修改配置权限
+		Incorrect: 密码错误！
+		ServerPassword: "[更好的体验] 模组配置认证密码: {Password}"
+		ServerPasswordLog: 模组配置认证密码: {Password}
+		CommandDescription: 用于验证客户端身份，请求获得配置修改权限
+		NotOn: 没有开启密码验证选项
+		Format: 密码格式为四位字母（不区分大小写）
+	}
+
+	SpawnRateMaxValue: {
+		Label: "[centeritem:2649] 敌人生成速度倍率最大值"
+		Tooltip:
+			'''
+			玩家可通过敌人生成速度面板调节的最大生成倍率限制
+			注意: 此面板只有同时拥有[向日葵][和平蜡烛][镇静药水][水蜡烛][战争药水]
+			的增益无限物品组合才会出现
+			服务器内如果你不想让玩家调节过高生成倍率，可以通过此选项限制
+			'''
+	}
+
+	ExStorageSearchDistance: {
+		Label: "[centeritem:ImproveGame/ExtremeStorage] 储存管理器搜索范围"
+		Tooltip:
+			'''
+			更改储存管理器检测箱子的距离，可能会造成极小的性能损失
+			箱子越多，多人模式同步压力越大，会一定程度上增加延迟
+			'''
+	}
+
+	LoadModItems: {
+		Label: 模组物品加载配置
+		Tooltip: 可选择移除模组内的物品，使其不出现在游戏中
+	}
+
+	ShowModName: {
+		Label: "[centeritem:ImproveGame/LiquidWand] 显示物品所属模组"
+		// Tooltip: ""
+	}
+
+	EmptyAutofisher: {
+		Label: "[centeritem:ImproveGame/Autofisher] 钓鱼机鱼饵用光提示"
+		Tooltip:
+			'''
+			开启后，若存储于钓鱼机的鱼饵用光，会在聊天栏显示一行信息:
+			“位于 [水平位置, 深度] 的自动钓鱼机已用光鱼饵”
+			'''
+		Tip: 位于 [c/15d36a:{Compass}, {Depth}] 的自动钓鱼机已用光鱼饵
+	}
+
+	OtherFunctions: {
+		Label: 其他不可调节功能
+		ExpandTip: 点击以查看
+		Subtitle: 以下是本模组的不可调节功能
+		Tooltip:
+			'''
+			快捷键展示摸彩袋物品明细（需绑定快捷键）
+			快捷键可切换第二行物品至快捷栏
+			点击生命体分析仪图标打开分析过滤界面
+			对着箱子按住Alt键可直接查看其内部物品
+			提示简化(去除收藏提示,时装栏物品显示详细信息)
+			提升了生命水晶、魔力水晶、生命果的使用速度，并允许它们自动挥舞
+			中键点击坐骑物品可以直接使用
+			创建玩家时可以选择所有发型
+			传送法杖快捷键，若任何物品栏及便携储存中有混沌传送杖或和谐杖，按下快捷键将自动使用，优先使用和谐杖
+			回程快捷键，快捷使用任何物品栏及便携储存内可无限使用的回程物品，优先使用返回药水
+			可以从大背包选取武器弹药
+			'''
+	}
+
+	ExtraToolSpeed: {
+		Label: "[centeritem:4056] 工具使用速度提升倍率"
+		Tooltip: 设置为 0 不会提升速度，值越大速度越快
+	}
+
+	MostTreeMin: {
+		Label: "[centeritem:9] 普遍树最小高度 (默认: 7)"
+		// Tooltip: ""
+	}
+
+	MostTreeMax: {
+		Label: "[centeritem:9] 普遍树最大高度 (默认: 12)"
+		// Tooltip: ""
+	}
+
+	PalmTreeMin: {
+		Label: "[centeritem:2504] 棕榈树最小高度 (默认: 10)"
+		// Tooltip: ""
+	}
+
+	PalmTreeMax: {
+		Label: "[centeritem:2504] 棕榈树最大高度 (默认: 20)"
+		// Tooltip: ""
+	}
+
+	GemTreeMin: {
+		Label: "[centeritem:4856] 宝石树最小高度 (默认: 7)"
+		// Tooltip: ""
+	}
+
+	GemTreeMax: {
+		Label: "[centeritem:4856] 宝石树最大高度 (默认: 12)"
+		// Tooltip: ""
+	}
+
+	Headers: {
+		Item: "[centeritem/h4:LifeCrystal] 物品设置"
+		NPC: "[centeritem:4382] NPC 设置"
+		GameMechanics: "[centeritem:1344] 游戏机制"
+		Tree: "[centeritem/h4:27] 树木设置"
+		Together: "[centeritem/h2:GolfCupFlagRed] 独乐不如众乐"
+		Server: "[centeritem:ImproveGame/CreateWand] 模组设置"
+		Presets: "[centeritem:ImproveGame/PaintWand] 预设"
+		Others: "[centeritem/h4:HandOfCreation] 其他"
+		ItemEffect: "[centeritem/h4:RedPotion] 物品效果设置"
+	}
+
+	OpenConfig: {
+		Label: 打开配置文件
+		Tooltip: 配置选项只有被修改过一次后才会在文件中出现相应项
+	}
+
+	TownNPCHome: {
+		Label: "[centeritem:MusicBoxTownDay] 城镇NPC快捷回家"
+		Tooltip:
+			'''
+			右键单击“房屋”按钮会将所有NPC立刻传送回家
+			如果玩家改变了某个NPC的家，那么这个NPC会立刻传送到它的新家
+			'''
+		HoverText: （<right>以将所有城镇NPC传送回家）
+	}
+
+	NoLakeSizePenalty: {
+		Label: "[centeritem:FishingPotion] 池子无渔力大小惩罚"
+		Tooltip:
+			'''
+			将所有池子的大小判定为满，即你可以在所有大小的水域钓鱼且不会受到因尺寸过小而减少渔力的惩罚
+			你甚至可以在两格水中钓鱼
+			'''
+	}
+
+	InfiniteRedPotion: {
+		Label: "[centeritem:RedPotion] 红药水扩展"
+		Tooltip:
+			'''
+			处于Get fixed boi或For the worthy世界时
+			你可以用所有药水所需的材料合成红药水
+			无尽红药水将提供一切在饮用时可能给予的增益(正面)
+			然而，你仍不能将红药水放入药水袋
+			'''
+		Condition: 开启红药水扩展
+	}
+
+	RedPotionEverywhere: {
+		Label: "[centeritem:RedPotion] 红药水扩展不受限"
+		Tooltip:
+			'''
+			你必须先开启红药水扩展功能
+			开启后，红药水扩展功能将在所有世界可用
+			而非仅限Get fixed boi或For the worthy世界
+			'''
+		Condition: 开启红药水扩展不受限/{$Conditions.WorldForTheWorthy}
+	}
+
+	RedPotionRequirement: {
+		Label: "[centeritem:RedPotion] 红药水无限续杯数量"
+		Tooltip:
+			'''
+			你必须先开启红药水扩展功能
+			为红药水设置单独的无限续杯所需数量
+			'''
+	}
+
+	LongerExpertDebuff: {
+		Label: "[centeritem:DemonHeart] 专家Debuff时长延长"
+		Tooltip:
+			'''
+			在专家/大师模式下是否延长Debuff时间
+			关闭后Debuff时间将与经典模式一致
+			'''
+	}
+
+	LightNotBlocked: {
+		Label: "[centeritem:UltrabrightTorch] 光照无视物块"
+		Tooltip:
+			'''
+			是否让光照无视物块传播
+			关闭则遵循原本的情况
+			'''
+	}
+
+	BombsNotDamage: {
+		Label: "[centeritem:TNTBarrel] 禁止爆炸物伤害"
+		Tooltip:
+			'''
+			禁止可破坏物块相关物的伤害
+
+			有两种可选的范围：
+			1. 爆炸物
+			  - 仅针对物品类爆炸物
+			  - 炸药也算在内
+			2. 爆炸物和火箭
+			  - 同时针对物品和火箭
+			  - 炸药也算在内
+			'''
+	}
+
+	WorldFeaturePanel: {
+		Label: "[centeritem:WorldGlobe] 世界特性调节面板"
+		Tooltip:
+			'''
+			在总控面板打开世界特性调节面板
+			可调节秘密种子效果、特殊节日
+			'''
+	}
+
+	BedEverywhere: {
+		Label: "[centeritem:Bed] 移除设置重生点限制"
+		Tooltip: 使得床在任何情况下均可设置重生点，不需要房间
+	}
+
+	MinimapMark: {
+		Tooltip:
+			'''
+			开启后，使用“定位球”系列物品可在小地图上标记以下结构：
+			以太、地牢、神庙、空岛、金字塔、世纪之花球茎、附魔剑
+			'''
+		Label: "[centeritem:WorldGlobe] 结构标记"
+	}
+
+	ModifyNPCHappiness: {
+		Label: "[centeritem:LifeCrystal] 固定 NPC 快乐度"
+		// Tooltip: ""
+	}
+
+	NPCHappiness: {
+		Label: "[centeritem:LifeCrystal] NPC 快乐度"
+		Tooltip: 设置的值越小从 NPC 购买物品价格越便宜，卖给 NPC 物品价格越高
+	}
+
+	NoSleepRestrictions: {
+		Label: "[centeritem:Bed] 无视睡觉限制"
+		Tooltip: 任何情况下，睡觉时间加速的效果都不会被阻断
+	}
+
+	BedTimeRate: {
+		Label: "[centeritem:Bed] 睡觉时间速率"
+		Tooltip: 允许你更改睡觉时的时间流速乘数，默认为5
+	}
+
+	BedOnlyOne: {
+		Label: "[centeritem:Bed] 一人睡觉即可加速时间"
+		Tooltip: 在多人模式下，只需一个玩家睡觉就可以加速时间
+	}
+
+	WandMaterialNoConsume: {
+		Tooltip:
+			'''
+			使用空间、科技、建造魔杖放置物块和背景墙时，堆叠超过999的材料不会消耗
+			放置工作台、桌子、床时，堆叠超过99的材料不会消耗
+			'''
+		Label: "[centeritem:ImproveGame/SpaceWand] 使用魔杖放置时无限材料"
+	}
+
+	QuestFishStack: {
+		Label: "[centeritem:Clownfish] 任务鱼可堆叠"
+		Tooltip: 使任务鱼可堆叠，在背包有相同鱼时仍可钓出并捡起
+	}
+
+	QuickRespawn: {
+		Label: "[centeritem:3232] 无BOSS存活时快速复活"
+		Tooltip: 当场上无任何BOSS或BOSS被击败/脱战时，将复活时间缩短为1.5s
+	}
+
+	NoPylonRestrictions: {
+		Label: "[centeritem:TeleportationPylonPurity] 晶塔传送无视条件"
+		Tooltip: 可无视条件使用晶塔传送，但你仍需站在一个晶塔附近才能传送
+	}
+
+	AllOff: {
+		Label: 全给我关掉
+		Tooltip: 将（几乎）所有配置还原到原版状态，还你一个原汁原味的泰拉瑞亚体验
+	}
+
+	NoConditionTP: {
+		Label: "[centeritem:WormholePotion] 无条件队内传送"
+		Tooltip: 可无视条件使用队内传送，不需要携带虫洞药水，带了也不会消耗
+	}
+
+	OpenFaq: {
+		Tooltip:
+			'''
+			强烈建议在你遇到任何问题时，先看一眼这个网页
+			包含对以下问题的解答：
+			- 怎么隐藏无限增益？
+			- 怎么关闭自动存钱功能？
+			- 人物头顶的Buff怎么隐藏？
+			'''
+		Label: 常见问题解答
+	}
+
+	WeatherControl: {
+		Label: "[centeritem:ImproveGame/WeatherBook] 气候控制"
+		Tooltip:
+			'''
+			可以调节风向、月相、降雨，肉后还能调节时间，在总控面板中打开
+			使用气候之书后即可解锁此功能，解锁状态跟随世界存档
+			'''
+	}
+
+	AmmoChain: {
+		Label: "[centeritem:ImproveGame/AmmoChainItem] 弹药链"
+		Tooltip:
+			'''
+			可以让武器以规定顺序使用特定子弹
+			在总控面板中打开
+			'''
+	}
+
+	SimpleVeinMining: {
+		Label: "[centeritem:IronPickaxe] 简单连锁挖矿"
+		Tooltip:
+			'''
+			最基础的连锁挖矿功能，无需快捷键，使用镐子挖矿即可
+			不具备黑/白名单功能，不支持进一步调节
+			若有此类需求，建议使用Ore Excavator或Basic Automated Mining，均有民间或官方汉化
+			为避免冲突，若加载了以上两个模组之一，本功能将被强制禁用
+			'''
+		PopupTip: 若不想要，连锁挖矿可在更好的体验配置中关闭
+	}
+
+	DisableVeinMiningPopup: {
+		Label: "[centeritem:IronPickaxe] 禁用连锁挖矿弹出提示"
+		Tooltip: 永久关闭烦人的连锁挖矿弹出提示
+	}
+}
+
+ModItemLoadPage: {
+	MagickWand: {
+		// Label: "{$Mods.ImproveGame.Items.MagickWand.DisplayName}"
+		// Tooltip: ""
+	}
+
+	SpaceWand: {
+		// Label: "{$Mods.ImproveGame.Items.SpaceWand.DisplayName}"
+		// Tooltip: ""
+	}
+
+	StarburstWand: {
+		// Label: "{$Mods.ImproveGame.Items.StarburstWand.DisplayName}"
+		// Tooltip: ""
+	}
+
+	WallPlace: {
+		// Label: "{$Mods.ImproveGame.Items.WallPlace.DisplayName}"
+		// Tooltip: ""
+	}
+
+	CreateWand: {
+		// Label: "{$Mods.ImproveGame.Items.CreateWand.DisplayName}"
+		// Tooltip: ""
+	}
+
+	LiquidWand: {
+		// Label: "{$Mods.ImproveGame.Items.LiquidWand.DisplayName}"
+		// Tooltip: ""
+	}
+
+	PotionBag: {
+		// Label: "{$Mods.ImproveGame.Items.PotionBag.DisplayName}"
+		// Tooltip: ""
+	}
+
+	BannerChest: {
+		// Label: "{$Mods.ImproveGame.Items.BannerChest.DisplayName}"
+		// Tooltip: ""
+	}
+
+	Autofisher: {
+		// Label: "{$Mods.ImproveGame.Items.Autofisher.DisplayName}"
+		// Tooltip: ""
+	}
+
+	PaintWand: {
+		// Label: "{$Mods.ImproveGame.Items.PaintWand.DisplayName}"
+		// Tooltip: ""
+	}
+
+	ConstructWand: {
+		// Label: "{$Mods.ImproveGame.Items.ConstructWand.DisplayName}"
+		// Tooltip: ""
+	}
+
+	MoveChest: {
+		// Label: "{$Mods.ImproveGame.Items.MoveChest.DisplayName}"
+		// Tooltip: ""
+	}
+
+	CoinOne: {
+		// Label: "{$Mods.ImproveGame.Items.CoinOne.DisplayName}"
+		// Tooltip: ""
+	}
+
+	ExtremeStorage: {
+		// Label: "{$Mods.ImproveGame.Items.ExtremeStorage.DisplayName}"
+		// Tooltip: ""
+	}
+
+	DetectorDrone: {
+		// Label: "{$Mods.ImproveGame.Items.DetectorDrone.DisplayName}"
+		// Tooltip: ""
+	}
+
+	BaitSupplier: {
+		// Label: "{$Mods.ImproveGame.Items.BaitSupplier.DisplayName}"
+		// Tooltip: ""
+	}
+
+	// Tooltip: ""
+}
+
+UIConfigs: {
+	DisplayName: 个人配置
+
+	BigBackpackButton: {
+		Label: "[centeritem:3813] 大背包快捷按钮"
+		Tooltip: ""
+	}
+
+	ResetNativeUI: {
+		Label: "[centeritem:1544] 重置原生用户界面"
+		// Tooltip: ""
+	}
+
+	GeneralFontOffsetY: {
+		Label: "[centeritem:1543] 用户界面普通字体 Y 轴偏移"
+		Tooltip: 调整偏移值，使文本贴住白线。
+	}
+
+	BigFontOffsetY: {
+		Label: "[centeritem:1543] 用户界面大型字体 Y 轴偏移"
+		Tooltip: 调整偏移值，使文本贴住白线。
+	}
+
+	ShowMoreData: {
+		Label: "[centeritem:1344] 显示调试数据"
+		// Tooltip: ""
+	}
+
+	PlyInfo: {
+		Label: "[centeritem:3124] 角色属性面板"
+		Tooltip: 开启后会在成就右侧出现一个四叶草标志
+	}
+
+	QoLAutoTrash: {
+		Label: "[centeritem:348] 自动垃圾桶"
+		Tooltip:
+			'''
+			在物品栏下方显示自动垃圾桶。
+			其中的物品将被自动丢弃。
+			可取回最近丢弃的六种物品。
+			Shift+Ctrl+左键点击物品将其丢进此垃圾桶。
+			'''
+	}
+
+	FontOffsetPreviewText: 调整偏移值，使文本贴住白线。
+	BigFontOffsetPreviewText: 非常好字体。
+
+	OpenConfig: {
+		// Label: "{$Mods.ImproveGame.Configs.ImproveConfigs.OpenConfig.Label}"
+		// Tooltip: "{$Mods.ImproveGame.Configs.ImproveConfigs.OpenConfig.Tooltip}"
+	}
+
+	KeepFocus: {
+		Label: "[centeritem:TVHeadMask] 失焦时保持游戏运行"
+		Tooltip:
+			'''
+			使单人游戏失焦（即处于后台）时仍然保持游戏运行
+			而不是暂停游戏
+			'''
+	}
+
+	ExplosionEffect: {
+		Label: "[centeritem:TNTBarrel] 爆炸效果"
+		Tooltip: 关闭后，使用本模组魔杖时不再有爆炸效果
+	}
+
+	Headers: {
+		MinimapHeader: "[centeritem:WorldGlobe] 地图标记设置"
+		UIHeader: "[centeritem:EchoMonolith] UI设置"
+		GameHeader: "[centeritem:JimsDrone] 游戏设置"
+	}
+
+	MarkFloatingIsland: {
+		Tooltip: 在地图上显示的已标记的空岛的图标的大小，设为0以隐藏图标
+		Label: "[centeritem:ImproveGame/FloatingIslandGlobe] 空岛图标大小"
+	}
+
+	MarkAether: {
+		Tooltip: 在地图上显示的已标记的以太的图标的大小，设为0以隐藏图标
+		Label: "[centeritem:ImproveGame/AetherGlobe] 以太图标大小"
+	}
+
+	MarkTemple: {
+		Tooltip: 在地图上显示的已标记的神庙的图标的大小，设为0以隐藏图标
+		Label: "[centeritem:ImproveGame/TempleGlobe] 神庙图标大小"
+	}
+
+	MarkDungeon: {
+		Tooltip: 在地图上显示的已标记的地牢的图标的大小，设为0以隐藏图标
+		Label: "[centeritem:ImproveGame/DungeonGlobe] 地牢图标大小"
+	}
+
+	MarkPyramid: {
+		Label: "[centeritem:ImproveGame/PyramidGlobe] 金字塔图标大小"
+		Tooltip: 在地图上显示的已标记的金字塔的图标的大小，设为0以隐藏图标
+	}
+
+	MarkPlantera: {
+		Label: "[centeritem:ImproveGame/PlanteraGlobe] 世纪之花图标大小"
+		Tooltip: 在地图上显示的已标记的{$MapObject.PlanterasBulb}的图标的大小，设为0以隐藏图标
+	}
+
+	MarkEnchantedSword: {
+		Label: "[centeritem:ImproveGame/EnchantedSwordGlobe] 附魔剑图标大小"
+		Tooltip: 在地图上显示的已标记的{$ItemName.EnchantedSword}的图标的大小，设为0以隐藏图标
+	}
+
+	MarkEmptyAutofisher: {
+		Label: "[centeritem:ImproveGame/Autofisher] 缺少鱼饵的钓鱼机图标大小"
+		Tooltip: 在地图上显示的所有缺少鱼饵的钓鱼机的图标的大小，设为0以隐藏图标
+	}
+
+	SuicideButton: {
+		Label: 自杀
+		Tooltip: 按下此按钮将使你的人物当场暴毙，[c/FF4444:点击前请三思]
+	}
+
+	MagicMirrorInstantTp: {
+		Label: "[centeritem:MagicMirror] 魔镜瞬传"
+		Tooltip: 魔镜类物品改为瞬间传送，去除传送前的等待时间
+	}
+
+	HideNoConsumeBuffs: {
+		Label: "[centeritem:297] 隐藏无限续杯增益"
+		Tooltip:
+			'''
+			自动隐藏已无限续杯的增益效果
+			增益仍然以Buff形式存在，但不会在Buff栏中显示
+			'''
+	}
+
+	InfernoTransparency: {
+		Label: "[centeritem:InfernoPotion] 狱火圈不透明度"
+		Tooltip: 影响你看所有玩家的狱火圈的不透明度，1为不透明，0为完全透明·
+	}
+
+	InvisibleTransparency: {
+		Label: "[centeritem:InvisibilityPotion] 隐身不透明度"
+		Tooltip: 只会影响自己看自己的不透明度，看别人或别人看你不会受到影响，1为不透明，0为完全透明·
+	}
+
+	ThemeType: {
+		Tooltip: 控制更好的体验UI的整体配色方案
+		Label: "[g:12] UI主题"
+	}
+
+	ShowShimmerInfo: {
+		Label: "[centeritem:BottomlessShimmerBucket] 显示微光转化信息"
+		Tooltip: 显示某个物品的微光转化结果
+	}
+
+	ResetUIPositionsButton: {
+		Label: 重设UI位置
+		Tooltip: 重设所有UI的位置，在你找不到大背包UI时尤其有用
+	}
+
+	GlassVfx: {
+		Label: "[centeritem:MulticoloredStainedGlass] 毛玻璃效果"
+		Tooltip:
+			'''
+			为本模组的UI应用毛玻璃效果，使其更加美观
+			仅当照明模式设为“颜色”或“白”时可用
+			这个功能可能会影响性能
+
+			目前仅一种可选的毛玻璃效果：
+			1. 类云母
+			  - UI本身不透明，以其所覆盖的模糊处理后的游戏画面为背景
+			  - UI之间会互相遮罩
+			'''
+	}
+
+	AutoSummon: {
+		Label: "[i:SlimeStaff] 自动重召唤"
+		Tooltip:
+			'''
+			复活后会自动召唤死前最后一次召唤的召唤物
+			加载Summoners' Association模组后，此功能自动禁用
+			如果你要更加精细地控制召唤物，强推Summoners' Association（召唤物管理）模组，有官中！
+			'''
+	}
+
+	RecipeSearch: {
+		Label: "[centeritem:ImproveGame/SearchIcon] 搜索配方"
+		Tooltip: 展开全配方时，显示搜索框，以搜索能够合成指定物品的配方
+	}
+}
+
+PAPDisplayMode: {
+	// Tooltip: ""
+	AlwaysDisplayed.Label: 始终显示
+	NotDisplayed.Label: 不显示
+	WhenOpeningBackpack.Label: 开启背包时显示
+}
+
+ThemeType: {
+	// Stormdark.Label: Stormdark
+	Blue.Label: 经典
+	// Tooltip: ""
+}
+
+GlassType: {
+	// Tooltip: ""
+	Disabled.Label: 关闭
+	SimpleBlur.Label: 简单模糊
+	MicaLike.Label: 类云母
+	// aaa.Label: aaa
+}
+
+BombsNotDamageType: {
+	// Tooltip: ""
+	Disabled.Label: 关闭
+	Item.Label: 爆炸物
+	ItemAndRocket.Label: 爆炸物和火箭
+}
+
+FavoritedConfigs: {
+	DisplayName: 配置选项收藏夹
+
+	Header: {
+		Favorited: "[centeritem:FallenStar] 已收藏选项"
+		News: "[centeritem:RainbowCursor] 新版新增选项"
+	}
+
+	FavoriteIntroduction: {
+		Label: 这是一个用于管理和设置常用配置项的页面
+		Tooltip:
+			'''
+			右键单击更好的体验模组配置中的任何选项，即可将选项加入收藏
+			被收藏的选项会显示在此页面中，以便快速访问
+			此外，此页面也会显示每次模组更新后新增的配置选项
+			'''
+	}
+}

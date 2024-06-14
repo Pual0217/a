@@ -1,0 +1,22 @@
+NPC: {
+	LockHP: 锁定生命值
+	LifeMax: 最大生命值
+	Defense: 防御
+	Damage: 触碰伤害
+	ShowBox: 显示碰撞范围
+	ShowDamageData: 显示伤害数据
+	ShowNameOnHover: 鼠标悬浮时显示 NPC 名称
+	Immortal: 原版只有假人为 true, 绿叶弹会忽略追踪
+	NoGravity: 不受重力影响
+	NoTileCollide: 关闭物块碰撞检测
+	KnockBackResist: 击退抗性, 0 免疫击退
+	Dummy_Damage: 伤害: {S}/秒 {F}/帧
+	Dummy_Time: 时长: {S}秒 {F}帧
+	Dummy_FinalBlow: 最后一击: {FinalBlow}
+	DummyCommand_DummyAttributes: 假人属性
+	DummyCommand_Usage: 用法: /dummy <attribute> <value> (不区分大小写)
+	DummyCommand_Description: attribute: 属性名, value: 值. 可以输入指令 /dummy info 查看可用属性与对应类型以及当前值
+	DummyCommand_Success: 修改成功: {name} {args} !!!
+	DummyCommand_Fail: 修改失败 ( {input} ) !!!
+	DummyCommand_Invalid: 无效指令 ( {input} ) !!!
+}

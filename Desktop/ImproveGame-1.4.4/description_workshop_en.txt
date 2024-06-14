@@ -1,0 +1,49 @@
+﻿[h2]Quality of Terraria, a mod to greatly improve your gameplay experience[/h2]
+[h2][url=https://discord.gg/rEmGMQv5z7]Join our Discord to report bugs and get replied quickly![/url][/h2]
+These features may bring you better gameplay experience
+Only some functions are enabled by default, please check mod configurations for details
+
+[img]https://i.imgur.com/ki1CPZe.gif[/img]
+
+[h2]Mod Items[/h2]
+[b]You can use Recipe Browser Mod to check their sources![/b]
+[list]
+	[*]Banner Box: Any Iron Bar * 12
+	[*]Potion Bag: Silk * 8
+	[*]Fishing Machine: Any Iron Bar * 4 + Any Copper Bar * 2
+	[*]Storage Manager: Sapphire * 5 + Fallen Star * 8 + Any Gold Bar * 12
+	[*]Wand of Technology: Dropped by the King Slime
+	[*]Wand of Space: Dropped by the King Slime
+	[*]Wand of Liquid: Any Gold Bar * 6 + Shadow Scale/Tissue Sample * 8 + Wood * 24
+	[*]Wand of Architecture: Wood * 24 + Fallen Star * 2 + Any Gold Bar * 12
+	[*]Wand of Bursts: Wood * 18 + Jungle Spores * 6 + Ruby * 1
+	[*]Wand of Star Bursts: Wand of Bursts * 1 + Fallen Star * 8 + Soul of Light * 6 + Soul of Night * 6
+	[*]Wand of Void: Iron Bar/Lead Bar * 6 + Wood * 18 + Diamond * 1
+	[*]Wand of Construction: Mythril Bar/Orichalcum Bar * 18 + Amber * 8 + Wood * 80 + Stone * 80
+[/list]
+
+[h2]Feature Highlights[/h2]
+[b]For a detailed list, check mod configurations or changelog above[/b]
+[olist]
+	[*]General features like max stack
+	[*]A Storage Manager that integrates storage, crafting, infinite buffs, and more
+	[*]Town NPC spawn mechanic improvements: can respawn during nighttime, ignore respwaning limitations if bestiary is unlocked
+	[*]Mod items such as Wand of Space, Wand of Architecture, Wand of Bursts and Fishing Machine which greatly improve gameplay experience
+	[*]Integration of qol features like instantly refresh Angler's quests and disable tomb stone spawning
+	[*]Time-saving features like Infinite Buffs and Portable Crafting Stations
+	[*]Features specially made for multiplayer, for example sharing your infinite buffs, portable crafting stations and even more with your teammates
+	[*]A Huge Inventory providing 100 item slots, no worries of storing your potions and banners
+	[*]Potion Bag and Banner Box, integrate all your potions or banners as a single item (and you are free to take them out)
+	[*][b]Most features are configurable, use on your own preference[/b]
+[/olist]
+[h2]Open Source[/h2]
+Change log: https://github.com/487666123/ImproveGame/blob/1.4.4/ChangeLog-en.md
+Source code: https://github.com/487666123/ImproveGame
+
+[h2]Authors and Special Thanks[/h2]
+Spriter: 枫林半叶, 逆风而行的信鸽
+Translators: Lastprismer, Lacewing
+Coder: 局长, Cyril, 夜谷紫幽
+Special Thanks: gardenapple - WMITF
+           ChevyRay - Coroutines class
+           Tomat - Part of GIF-rendering code

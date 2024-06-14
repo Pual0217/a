@@ -1,0 +1,408 @@
+DummyControl.Name: 假人控制器
+GrabBagInfo.Title: 摸彩袋物品明细
+RecipeSearchUI.Tips:
+	'''
+	配方搜索功能由更好的体验提供
+	你可以在更好的体验的个人配置中关闭它
+	'''
+
+MasterControl: {
+	Available: 可用功能
+	Unavailable: 不可用功能
+	Version: 版本号: {0}
+	Changelog: 点我查看更新内容
+	PopupTitle: 未绑定快捷键
+	PopupText: 您尚未绑定更好的体验总控面板快捷键，请绑定快捷键以使用快捷功能。 绑定按键后此消息不再弹出。
+	PopupPanelWidth: "280"
+	PopupPanelHeight: "150"
+	ChangelogLink: https://gitee.com/MyGoold/improve-game/blob/1.4.4/Changelog/zh/v{0}.md
+}
+
+AmmoChain: {
+	Title: 弹药链
+	LoadError: 文件不合法或不是弹药链文件
+	ClickToAddL1: 选取一个弹药后
+	ClickToAddL2: 点击此处以添加到弹药链
+	FileName: 弹药链
+	AddChain: 添加弹药链
+	OpenFolder: 打开文件夹
+	// 一个按钮，点击后打开帮助网页
+	GetHelp: 这玩意咋用啊？
+	Cancel: 取消
+	Confirm: 确定
+	ItemNotAvailable: × 此物品不使用弹药
+	PutInItem: ← 将武器放入此处
+	ClickAmmoChain: 点击弹药链以应用
+	AddAmmoChain: 你现在没有弹药链，先添加一个吧
+	Empty: 你不能设置一个空的弹药链
+}
+
+WeatherGUI: {
+	Title: 气候控制
+	Wind: 左键点击以调节风向
+	WindLockFalse: 右键点击以阻止风变化
+	WindLockTrue: 右键点击以允许风变化
+	WindWest: 已调节为大西风
+	WindNo: 已调节为无风
+	WindEast: 已调节为大东风
+	WindLocked: 风速与风向已锁定
+	WindUnlocked: 风速与风向已解锁
+	RainActive: 左键点击以开始降雨
+	RainInactive: 左键点击以停止降雨
+	RainLockFalse: 右键点击以锁定降雨状态
+	RainLockTrue: 右键点击以解锁降雨状态
+	RainOn: 已开始降雨
+	RainOff: 已停止降雨
+	RainLocked: 降雨状态已锁定
+	RainUnlocked: 降雨状态已解锁
+	Time: 左键点击以调节时间
+	Dawn: 已调节为黎明
+	Noon: 已调节为正午
+	Dusk: 已调节为黄昏
+	Midnight: 已调节为午夜
+	MoonPhase: 左键点击以调节月相
+	MoonPhaseLockFalse: 右键点击以阻止月相变化
+	MoonPhaseLockTrue: 右键点击以允许月相变化
+	MoonPhaseAdjusted: 已调节为{0}
+	MoonPhaseLocked: 月相已锁定为{0}
+	MoonPhaseUnlocked: 月相已解锁
+	AlreadyUnlocked: 该世界已经解锁了气候控制
+	Unlocked: 气候控制已解锁！请在总控页面打开
+	EasterEgg: 蘑菇！
+	Locked: 使用 [i:ImproveGame/WeatherBook] 以解锁气候控制
+	TimeUnlockCondition: 肉后解锁时间控制
+}
+
+PlayerStats: {
+	// 翻译提示: 尽量简短，因为UI的空间有限，不要超过10个字符
+	Introduction:
+		'''
+		[c/CC88AA:属性面板]
+		点击属性和类别名，以令其[c/ff0000:始][c/ff3700:终][c/ff6e00:显][c/ffa500:示]
+		按住右键可拖动此开关
+		'''
+	Control: 属性面板控制器
+	Name: 属性面板
+	Melee: 近战
+	Ranged: 远程
+	Magic: 魔法
+	Summon: 召唤
+	Throwing: 投掷
+	// 其他玩家属性
+	Other: 其他
+	LifeRegen: 生命回复
+	ArmorPenetration: 穿甲
+	// 魔力恢复，因为归在大类“魔法”下所以用Regen代替
+	Regen: 回复
+	// 魔力消耗，因为归在大类“魔法”下所以用Cost代替
+	Cost: 消耗
+	MaxMinions: 召唤栏
+	MaxTurrets: 哨兵栏
+	Endurance: 免伤
+	Luck: 幸运
+	Aggro: 仇恨
+	BulletDamage: 弹药伤害
+	ArrowDamage: 弓箭伤害
+	SpecialistDamage: 其他伤害
+	Damage: 伤害
+	Crit: 暴击
+	// 攻击速度
+	Speed: 攻速
+	SummonMeleeSpeed: 鞭子攻速
+
+	CalamityMod: {
+		Rogue: 盗贼
+		// 盗贼弹幕速度，英文原文“Rogue Velocity”，这里归在大类“Rogue”下所以用Velocity代替
+		RogueVelocity: 弹幕速度
+	}
+
+	ThoriumMod: {
+		Healer: 牧师
+		// 牧师治疗工具（法术）的攻击速度，英文原文即“Healing Speed”，由于UI空间有限去掉了"ing"
+		HealingSpeed: 治疗速度
+		// 瑟银的一些牧师装备增加法术回血量
+		HealBonus: 法术治疗加成
+		Bard: 乐师
+	}
+}
+
+ExtremeStorage: {
+	AddChest: 添加箱子
+	RejectNearbyStack: 附近有玩家在使用储存管理器，无法快速堆叠到附近箱子
+	CloseCraftingWindow: 关闭合成窗口
+	OpenCraftingWindow: 打开合成窗口
+
+	CountForCrafting: {
+		Label: 物品参与合成
+		Tooltip:
+			'''
+			打开的类别中的箱内物品是否[c/CC88AA:参与合成]
+			你仍可以直接打开箱子并使用箱子内物品合成
+			若某个分类下的物品过多，会造成一定的性能损耗，建议低端电脑用户在需要时再开启
+			'''
+	}
+
+	UseUnlimitedPotion: {
+		Label: 药水无限续杯
+		Tooltip:
+			'''
+			处于[c/CC88AA:“{$Mods.ImproveGame.UI.ExtremeStorage.ItemGroup.Alchemy}”]类别中的药水与增益站是否[c/CC88AA:可以用于无限续杯]
+			你需要在模组配置中启用“无限续杯”功能
+			'''
+	}
+
+	UsePortableStation: {
+		Label: 便携制作站
+		Tooltip:
+			'''
+			处于[c/CC88AA:“{$Mods.ImproveGame.UI.ExtremeStorage.ItemGroup.Furniture}”]类别中的制作站是否[c/CC88AA:可以作为便携制作站]
+			你需要在模组配置中启用“便携制作站”功能
+			'''
+	}
+
+	UsePortableBanner: {
+		Label: 随身旗帜
+		Tooltip:
+			'''
+			处于[c/CC88AA:“{$Mods.ImproveGame.UI.ExtremeStorage.ItemGroup.Furniture}”]类别中的旗帜是否[c/CC88AA:可以作为随身旗帜]
+			你需要在模组配置中启用“随身增益站：旗帜”功能
+			'''
+	}
+
+	ChestBeingUsed:
+		'''
+		该栏位所属箱子正在被另一名玩家使用
+		暂时无法进行任何操作
+		'''
+	// 介绍使用了手动换行让排版看起来舒服点
+	BasicIntroduction:
+		'''
+		注意:
+		  1. 分类依靠箱子名称前的标识符运作，
+		     请勿随意修改箱子名称
+		  2. 推荐将家具和药水放在对应分类，
+		     其他均放入“全部”分类
+		  3. 多人模式下，如果别人打开了某个箱子，
+		     你就不能对其内物品进行操作
+		'''
+
+	ItemGroup: {
+		// Weapon: "{$CreativePowers.TabWeapons}"
+		// Tool: "{$CreativePowers.TabTools}"
+		// Ammo: "{$LegacyInterface.27}"
+		// Armor: "{$CreativePowers.TabArmor}"
+		// Accessory: "{$CreativePowers.TabAccessories}"
+		// Furniture: "{$CreativePowers.TabFurniture}"
+		Block: 放置物
+		// Material: "{$CreativePowers.TabMaterials}"
+		Alchemy: 炼药
+		// Misc: "{$CreativePowers.TabMisc}"
+		// Setting: "{$LegacyMenu.14}"
+		Everything: 全部
+	}
+
+	// 筛选器的文本
+	Weapon: {
+		Melee: 近战
+		Ranged: 远程
+		Magic: 魔法
+		Summon: 召唤
+		Other: 其它
+	}
+
+	Tool: {
+		Pickaxe: 镐
+		Axe: 斧
+		Hammer: 锤
+		Hook: 钩爪
+		Wiring: 电路工具
+		FishingPole: 钓竿
+		Other: 其它
+	}
+
+	Ammo: {
+		Arrow: 箭
+		Bullet: 子弹
+		Rocket: 火箭
+		Dart: 飞镖
+		Other: 其它
+	}
+
+	Armor: {
+		Headgear: 头部装备
+		Torso: 身部装备
+		Pants: 腿部装备
+		Vanity: 时装
+	}
+
+	Accessory: {
+		Boot: 靴子
+		Wing: 翅膀
+		Shield: 护盾
+		Other: 其它
+		Vanity: 时装
+	}
+
+	Block: {
+		Solid: 实心块
+		Wall: 墙
+		Platform: 平台
+		Other: 其它
+	}
+
+	Misc: {
+		Herb: 草药
+		SummonItem: 召唤物
+		Pet: 宠物
+		Mount: 坐骑
+		Material: 材料
+		Other: 其它
+	}
+}
+
+AutoTrash: {
+	Introduction:
+		'''
+		[c/CC88AA:自动垃圾桶]
+		对物品按下 [c/CC88AA:Shift+Ctrl+<left>] 可将其设为自动丢弃
+		按下 [c/CC88AA:{0}] 以隐藏该界面（确保你在控件中绑定了按键）
+		按下此按钮查看自动丢弃列表
+		'''
+	TrashedItemsList: 自动丢弃列表
+}
+
+WorldFeature: {
+	Title: 世界特性
+
+	Halloween: {
+		Label: 万圣节
+		Tooltip: 控制世界是否处于万圣节期间
+	}
+
+	XMas: {
+		Label: 圣诞节
+		Tooltip: 控制世界是否处于圣诞节期间
+	}
+
+	Drunk:
+		'''
+		Drunk world（醉酒世界）
+		种子：05162020 | 5162020
+		'''
+	Bees:
+		'''
+		Not the bees（蜜蜂世界）
+		种子：not the bees | not the bees! | notthebees
+		'''
+	Ftw:
+		'''
+		For the worthy
+		种子：for the worthy | fortheworthy
+		'''
+	Anniversary:
+		'''
+		Celebrationmk10（十周年世界）
+		种子：celebrationmk10 | 05162011 | 5162011 | 05162021 | 5162021
+		'''
+	DontStarve:
+		'''
+		The Constant（饥荒世界）
+		种子：constant | theconstant | the constant | eye4aneye | eyeforaneye
+		'''
+	Traps:
+		'''
+		No traps（陷阱世界）
+		种子：no traps | notraps
+		注：在游戏内启用该世界特性没有任何实际效果
+		'''
+	Remix:
+		'''
+		Don't dig up（颠倒世界）
+		种子：don't dig up | dont dig up | dontdigup
+		'''
+	Zenith:
+		'''
+		Get fixed boi（天顶世界）
+		种子：get fixed boi | getfixedboi
+		注：只有将其他所有特殊种子特性开启，才能体验天顶世界完整效果
+		'''
+	OpenWiki: <right>以打开Wiki页面
+	NotPermitted: 您没有权限修改世界特性
+}
+
+ItemSearcher: {
+	Title: 查找物品
+	TipText: 查找到的物品将显示在此处
+	NotFoundText: 没有找到任何物品
+
+	FuzzySearch: {
+		Label: 模糊匹配
+		Tooltip:
+			'''
+			会搜到与搜索内容相差一个字符的结果
+			如输入“黑石”可搜索到“黑曜石”
+			'''
+	}
+
+	SearchTooltip: {
+		Label: 搜索简介
+		Tooltip: 搜索物品简介而非物品名称
+	}
+}
+
+OpenBag: {
+	Title: 快速开袋
+	TipText: 获取到的物品将暂存在此处
+	Open: 全部打开
+	Stop: 停止
+	EmptyText: 摸彩袋
+	NotFullyDisplayed: 此外，还有{0}个物品被隐藏
+
+	SellAll: {
+		Name: 全部出售
+		Tooltip:
+			'''
+			以基础售价的110%出售全部物品
+			出售所得将直接放置到你的钱币槽中
+			'''
+	}
+
+	AreYouSure: {
+		Name: 你确定要出售以上物品吗？
+		Tooltip:
+			'''
+			左键点击以出售
+			右键点击以取消
+			'''
+	}
+}
+
+Autofisher: {
+	Accessory: 钓鱼饰品
+	FishingPole: 钓竿
+	Bait: 诱饵
+	SelectPool: 请选择鱼池
+	CarefulNextTime: 下次注意点！
+	Unavailable: 暂无钓鱼信息
+	CatchCratesFilter: 钓宝匣
+	CatchAccessoriesFilter: 钓配饰
+	CatchToolsFilter: 钓工具与武器
+	CatchWhiteRarityCatchesFilter: 钓白色稀有度渔获
+	CatchNormalCatchesFilter: 钓高于白色稀有度渔获
+	PerItemFilter: 筛选物品
+	ChestAutoDeposit:
+		'''
+		自动存储
+		每分钟将渔获自动存入最近的箱子
+		'''
+}
+
+MapLayer: {
+	TheAether: 以太
+	Pyramid: 金字塔
+	FloatingIsland: 空岛
+	FloatingLake: 天湖
+	EmptyAutofisher: 自动钓鱼机（无鱼饵）
+}
+
+ThemePreview.Title: 主题预览
